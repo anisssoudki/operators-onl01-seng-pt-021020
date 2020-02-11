@@ -8,7 +8,7 @@ elsif speed >= 60
   return TRUE
 
 else 
-	return true
+	return false
 		
 	end
 end
