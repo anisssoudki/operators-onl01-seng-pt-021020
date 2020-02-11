@@ -7,6 +7,7 @@ else
   puts FALSE
 end
 
+unsafe?(55)
 
 
 def not_safe?(speed)
