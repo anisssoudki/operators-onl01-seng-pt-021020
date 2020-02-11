@@ -21,8 +21,12 @@ unsafe?(1)
 
 def not_safe?(speed)
 	
-	speed < 40 ? "true" : "false"
+	(speed < 40) & (speed > 60) ?  (puts "true") : (puts "false")
+	(speed > 95) ? (puts "true") : (puts "false")
 end
 	
 
+not_safe?(39)
+not_safe?(65)
+not_safe?(96)
 
