@@ -6,7 +6,7 @@ if ((speed < 40 && speed > 60) || (speed > 95))
 else
   puts FALSE
 end
-
+end
 unsafe?(55)
 
 
